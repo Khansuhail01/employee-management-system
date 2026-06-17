@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <title th:text="${title}"></title>
+
+    <!-- CSS link -->
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>Employee Management System</h1>
+
+    <h3>Welcome to Spring Boot</h3>
+
+    <p>This project is deployed using Jenkins + Docker.</p>
+
+    <hr>
+
+    <h2>Dashboard</h2>
+
+    <p>Total Employees : 0</p>
+
+    <p>Departments : 0</p>
+
+    <p>Version :
+        <span th:text="${version}"></span>
+    </p>
+
+</div>
+
+</body>
+</html>
